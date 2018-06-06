@@ -1,5 +1,7 @@
 pre-commit Robot Framework Tidy wrapper
 ==============================
+used by:
+https://github.com/AudaxHealthInc/Connect-Automated-Tests/pull/203
 
 This is a [pre-commit](https://github.com/pre-commit) hook that will run
 Robot Framework's Tidy tool on all of your robot files.
@@ -10,7 +12,7 @@ Robot Framework's Tidy tool on all of your robot files.
 
 Add this to your ``.pre-commit-config.yaml`` file
 
-    -   repo: git://github.com/guykisel/pre-commit-robotframework-tidy
+    -   repo: git://github.com/AudaxHealthInc/pre-commit-robotframework-tidy
         sha: 2ca903f005db8f8d87abe42864070f5b95e0837a
         hooks:
         -   id: robotframework-tidy-wrapper
